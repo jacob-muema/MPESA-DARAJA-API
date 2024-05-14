@@ -35,7 +35,7 @@ if ($status != 200) {
     // Extract access token
     $access_token = $result->access_token;
     // Output access token
-    // echo "Access Token: $access_token";
+    echo "Access Token: $access_token";
 }
 
 // Close cURL session
